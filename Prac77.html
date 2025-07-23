@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* color: white; */
+        }
+
+        .card {
+            display: flex;
+            /* background-color: black; */
+            justify-content: center;
+            align-items: center;
+            /* gap: 10px; */
+            width: 700px;
+            height: 100px;
+            border: 2px solid black;
+        }
+
+        .image{
+            position: relative;
+        }
+        .image img {
+            width: 100px;
+        }
+        .image .capsule{
+            position: absolute;
+            bottom: 4px;
+            z-index: 10px;
+            right: 5px;
+            background: gray;
+            opacity: 0.9;
+            color: white;
+            padding: 3px;
+            border-radius: 3px;
+            font-size: 14px;
+
+        }
+
+        /* .txt {
+            padding-left: 5px;
+
+        } */
+
+        .txt h1 {
+           
+            font-size: 20px;
+        }
+
+        .txt p {
+
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="https://i.ytimg.com/vi/2nk5gVRi8LE/hqdefault.jpg" alt="">
+                <div class = "capsule">31:06</div>
+            </div>
+            <div class="txt">
+                <h1>Introduction to Beckend | Sigma Web Dev Video #2</h1>
+                <p>CodeWithHarry . 727K views . 2 months ago</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="Script77.js"></script>
+</body>
+
+</html>
